@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>links</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/blood.css" />
+
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background-color: #222;
+        color: #ff7b00;
+      }
+      .container{
+        width: 100dvw;
+        height: 100dvh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+      }
+
+      video {
+        width: 300px;
+        object-fit: fill;
+      }
+      .unset {
+        all: unset !important;
+      }
+      .text-shadow-none {
+        text-shadow: none !important;
+      }
+      .leftyy {
+        left: calc(50% - 100px) !important;
+      }
+      :root {
+        --r-main-color: #ff7b00;
+        --r-heading-color: rgb(255, 123, 0);
+        --r-link-color: rgb(255, 123, 0);
+        --r-link-color-dark: rgb(255, 123, 0);
+        --r-link-color-hover: rgb(255, 123, 0);
+
+        --r-heading-font: "Vazirmatn", sans-serif;
+
+        --r-main-font: "Vazirmatn", sans-serif;
+        /*
+        --r-heading1-size: #{$heading1Size};
+        --r-heading2-size: #{$heading2Size};
+        --r-heading3-size: #{$heading3Size};
+        --r-heading4-size: #{$heading4Size}; */
+      }
+    </style>
+  </head>
+  <body>
+      <section class="container">
+        <div class="flex flex-col !justify-end items-start text-[24px] gap-5 ">
+          <h2 class="!text-white !text-[30px] !mb-0">links</h2>
+          <a
+            class="!underline"
+            href="https://www.linkedin.com/in/mostafa-kheibary"
+            >linkedin</a
+          >
+          <a class="!underline" href="https://github.com/mostafa-kheibary"
+            >github</a
+          >
+          <a class="!underline" href="https://x.com/xcallmemoe">x (twitter)</a>
+          <a class="!underline" href="https://github.com/PrivacyForge/ChatGuard"
+            >ChatGuard Repo</a
+          >
+        </div>
+      </section>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      Reveal.initialize({
+        hash: true,
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      });
+    </script>
+  </body>
+</html>

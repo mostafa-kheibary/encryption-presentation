@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>رمزنگاری</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/blood.css" />
+
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      video {
+        width: 300px;
+        object-fit: fill;
+      }
+      .unset {
+        all: unset !important;
+      }
+      .text-shadow-none {
+        text-shadow: none !important;
+      }
+      .leftyy {
+        left: calc(50% - 100px) !important;
+      }
+      :root {
+        --r-main-color: #ff7b00;
+        --r-heading-color: rgb(255, 123, 0);
+        --r-link-color: rgb(255, 123, 0);
+        --r-link-color-dark: rgb(255, 123, 0);
+        --r-link-color-hover: rgb(255, 123, 0);
+
+        --r-heading-font: "Vazirmatn", sans-serif;
+
+        --r-main-font: "Vazirmatn", sans-serif;
+        /*
+        --r-heading1-size: #{$heading1Size};
+        --r-heading2-size: #{$heading2Size};
+        --r-heading3-size: #{$heading3Size};
+        --r-heading4-size: #{$heading4Size}; */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="fixed left-5 top-5 flex items-center gap-5">
+        <div
+          class="border border-[#525252] border-solid px-5 py-2 pt-3 rounded-md"
+        >
+          <p
+            class="text-base text-black text-shadow-none text-white !font-bold !m-0"
+          >
+            <span class="pr-2 text-[#ff7b00]">CS12</span>COMMUNITY
+          </p>
+        </div>
+      </div>
+      <img
+        class="unset !fixed !top-5 !right-5 !w-[80px] !rounded-lg"
+        src="assets/cs12.jpeg"
+        alt=""
+      />
+      <div class="slides">
+        <section>
+          <section data-auto-animate>
+            <div
+              class="flex text-center justify-center items-center gap-10"
+            ></div>
+          </section>
+          <section data-auto-animate>
+            <div class="flex text-center justify-center items-center gap-10">
+              <h1 class="text-center !text-white">سلامم</h1>
+            </div>
+          </section>
+          <section data-auto-animate>
+            <div class="flex text-center justify-center items-center gap-10">
+              <h1 class="text-center !text-white">سلامم</h1>
+            </div>
+          </section>
+          <section data-auto-animate data-auto-animate-restart>
+            <div class="flex flex-col text-center w-full items-center gap-10">
+              <h2 class="text-center w-full !text-white">مصطفی خیبری</h2>
+            </div>
+          </section>
+          <section data-auto-animate>
+            <div
+              class="flex !gap-0 flex-col text-center w-full items-center gap-10"
+            >
+              <h2 class="w-full !text-white !text-[40px]">مصطفی خیبری</h2>
+              <span class="text-[20px]">مهندس نرم افزار در مکتب خونه</span>
+            </div>
+          </section>
+          <section></section>
+          <section>
+            <div
+              class="flex !gap-0 flex-col text-right justify-end w-full items-rigth gap-10"
+            >
+              <h2 class="!text-white !mb-0">رمزنگاری</h2>
+              <h4 class="!text-[20px] !mt-[20px]">
+                و کاربرد اون در حفط حریم خصوصی
+              </h4>
+            </div>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h1 class="!text-[80px] !text-white">قبل از هرچیزی</h1>
+            <p class="text-[30px]">بیایید یه سوءتفاهم را برطرف کنیم</p>
+          </section>
+          <section data-auto-animate>
+            <div class="flex flex-col items-end pr-32">
+              <h2 class="!text-[40px] !text-white">
+                encryption / decryption -
+              </h2>
+              <h2 class="!text-[40px] !text-white">encoding / decoding -</h2>
+              <h2 class="!text-[40px] !text-white">hashing -</h2>
+            </div>
+          </section>
+          <section data-auto-animate>
+            <div class="flex flex-col items-end pr-32">
+              <h2 class="!text-[40px] !text-white !mb-0">
+                encryption / decryption -
+              </h2>
+              <p class="text-right text-[20px]">
+                داده با کلیدی مشخص رمزنگاری می‌شود و با همان کلید به حالت اولیه
+                قابل بازگشت است
+              </p>
+              <h2 class="!text-[40px] !text-white">encoding / decoding -</h2>
+              <h2 class="!text-[40px] !text-white">hashing -</h2>
+            </div>
+          </section>
+          <section data-auto-animate>
+            <div class="flex flex-col items-end pr-32">
+              <h2 class="!text-[40px] !text-white !mb-0">
+                encryption / decryption -
+              </h2>
+              <p class="text-right text-[20px]">
+                داده با کلیدی مشخص رمزنگاری می‌شود و با همان کلید به حالت اولیه
+                قابل بازگشت است
+              </p>
+              <h2 class="!text-[40px] !text-white !mb-0">
+                encoding / decoding -
+              </h2>
+              <p class="text-right text-[20px]">
+                داده به فرمتی قابل انتقال یا خواندن تبدیل می‌شود و بدون کلید
+                خاصی قابل بازگشت است
+              </p>
+              <h2 class="!text-[40px] !text-white">hashing -</h2>
+            </div>
+          </section>
+          <section data-auto-animate>
+            <div class="flex flex-col items-end pr-32">
+              <h2 class="!text-[40px] !text-white !mb-0">
+                encryption / decryption -
+              </h2>
+              <p class="text-right text-[20px]">
+                داده با کلیدی مشخص رمزنگاری می‌شود و با همان کلید به حالت اولیه
+                قابل بازگشت است
+              </p>
+              <h2 class="!text-[40px] !text-white !mb-0">
+                encoding / decoding -
+              </h2>
+              <p class="text-right text-[20px]">
+                داده به فرمتی قابل انتقال یا خواندن تبدیل می‌شود و بدون کلید
+                خاصی قابل بازگشت است
+              </p>
+              <h2 class="!text-[40px] !text-white !mb-0">hashing -</h2>
+              <p class="text-right text-[20px]">
+                داده همیشه به یک مقدار ثابت و غیرقابل برگشت تبدیل می‌شود
+              </p>
+            </div>
+          </section>
+          <section>
+            <div class="flex flex-col items-center">
+              <p class="text-white !font-bold">
+                Encryption != Encoding != Hashing
+              </p>
+            </div>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h2 class="!text-white">رمزنگاری متقارن</h2>
+          </section>
+          <section></section>
+          <section data-auto-animate>
+            <div class="relative !w-full">
+              <div class="!absolute !left-0 !top-0">
+                <img
+                  src="assets/man.png"
+                  class="unset !w-[100px] !h-[100px]"
+                  alt=""
+                />
+              </div>
+              <div class="!absolute !right-0 !top-0">
+                <img
+                  src="assets/man.png"
+                  class="unset !w-[100px] !h-[100px]"
+                  alt=""
+                />
+              </div>
+            </div>
+          </section>
+          <section data-auto-animate>
+            <div class="relative !h-full !w-full">
+              <div class="!absolute !left-0 !top-0">
+                <img
+                  src="assets/man.png"
+                  class="unset !w-[100px] !h-[100px]"
+                  alt=""
+                />
+                <h2 class="!text-white !text-[20px]">علی</h2>
+              </div>
+              <div class="!absolute !right-0 !top-0">
+                <img
+                  src="assets/man.png"
+                  class="unset !w-[100px] !h-[100px]"
+                  alt=""
+                />
+                <h2 class="!text-white !text-[20px]">بابک</h2>
+              </div>
+            </div>
+          </section>
+          <section data-auto-animate>
+            <div class="relative !h-full !w-full">
+              <div
+                class="!bg-white text-black absolute !left-0 !-top-[50px] text-[14px] px-5 py-1 rounded-md"
+              >
+                یچیز خیلی مهم
+              </div>
+              <div class="!absolute !left-0 !top-0">
+                <img
+                  src="assets/man.png"
+                  class="unset !w-[100px] !h-[100px]"
+                  alt=""
+                />
+                <h2 class="!text-white !text-[20px]">علی</h2>
+              </div>
+              <div class="!absolute !right-0 !top-0">
+                <img
+                  src="assets/man.png"
+                  class="unset !w-[100px] !h-[100px]"
+                  alt=""
+                />
+                <h2 class="!text-white !text-[20px]">بابک</h2>
+              </div>
+            </div>
+          </section>
+          <section data-auto-animate>
+            <div class="relative !h-full !w-full">
+              <div
+                class="!bg-white text-black absolute !left-0 translate-x- !-top-[50px] text-[14px] px-5 py-1 rounded-md"
+              >
+                ekrgmglmelrmgurrejgnjrngelkrnge
+              </div>
+              <div class="!absolute !left-0 !top-0">
+                <img
+                  src="assets/man.png"
+                  class="unset !w-[100px] !h-[100px]"
+                  alt=""
+                />
+                <h2 class="!text-white !text-[20px]">علی</h2>
+              </div>
+              <div class="!absolute !right-0 !top-0">
+                <img
+                  src="assets/man.png"
+                  class="unset !w-[100px] !h-[100px]"
+                  alt=""
+                />
+                <h2 class="!text-white !text-[20px]">بابک</h2>
+              </div>
+            </div>
+          </section>
+          <section data-auto-animate>
+            <div class="relative !h-full !w-full">
+              <div
+                class="!bg-white text-black absolute !right-0 translate-x- !-top-[50px] text-[14px] px-5 py-1 rounded-md"
+              >
+                ekrgmglmelrmgurrejgnjrngelkrnge
+              </div>
+              <div class="!absolute !left-0 !top-0">
+                <img
+                  src="assets/man.png"
+                  class="unset !w-[100px] !h-[100px]"
+                  alt=""
+                />
+                <h2 class="!text-white !text-[20px]">علی</h2>
+              </div>
+              <div class="!absolute !right-0 !top-0">
+                <img
+                  src="assets/man.png"
+                  class="unset !w-[100px] !h-[100px]"
+                  alt=""
+                />
+                <h2 class="!text-white !text-[20px]">بابک</h2>
+              </div>
+            </div>
+          </section>
+          <section data-auto-animate>
+            <div class="relative !h-full !w-full">
+              <div
+                class="!bg-white text-black absolute !right-0 translate-x- !-top-[50px] text-[14px] px-5 py-1 rounded-md"
+              >
+                یچیز خیلی مهم
+              </div>
+              <div class="!absolute !left-0 !top-0">
+                <img
+                  src="assets/man.png"
+                  class="unset !w-[100px] !h-[100px]"
+                  alt=""
+                />
+                <h2 class="!text-white !text-[20px]">علی</h2>
+              </div>
+              <div class="!absolute !right-0 !top-0">
+                <img
+                  src="assets/man.png"
+                  class="unset !w-[100px] !h-[100px]"
+                  alt=""
+                />
+                <h2 class="!text-white !text-[20px]">بابک</h2>
+              </div>
+            </div>
+          </section>
+          <section>
+            <h2 class="!text-white">اما یه مشکل</h2>
+          </section>
+
+          <section data-auto-animate>
+            <img
+              class="unset !absolute leftyy !w-[250px]"
+              src="assets/cat.jpg"
+              alt=""
+            />
+            <div class="relative !h-full !w-full">
+              <div class="!absolute !left-0 !top-0">
+                <img
+                  src="assets/man.png"
+                  class="unset !w-[100px] !h-[100px]"
+                  alt=""
+                />
+                <h2 class="!text-white !text-[20px]">علی</h2>
+              </div>
+              <div class="!absolute !right-0 !top-0">
+                <img
+                  src="assets/man.png"
+                  class="unset !w-[100px] !h-[100px]"
+                  alt=""
+                />
+                <h2 class="!text-white !text-[20px]">بابک</h2>
+              </div>
+            </div>
+          </section>
+          <section data-auto-animate>
+            <img
+              class="unset !absolute leftyy !w-[250px]"
+              src="assets/cat.jpg"
+              alt=""
+            />
+            <div class="relative !h-full !w-full">
+              <div
+                class="!bg-white text-black absolute !left-0 !-top-[50px] text-[14px] px-5 py-1 rounded-md"
+              >
+                یچیز خیلی مهم
+              </div>
+              <div class="!absolute !left-0 !top-0">
+                <img
+                  src="assets/man.png"
+                  class="unset !w-[100px] !h-[100px]"
+                  alt=""
+                />
+                <h2 class="!text-white !text-[20px]">علی</h2>
+              </div>
+              <div class="!absolute !right-0 !top-0">
+                <img
+                  src="assets/man.png"
+                  class="unset !w-[100px] !h-[100px]"
+                  alt=""
+                />
+                <h2 class="!text-white !text-[20px]">بابک</h2>
+              </div>
+            </div>
+          </section>
+          <section data-auto-animate>
+            <img
+              class="unset !absolute leftyy !w-[250px]"
+              src="assets/cat.jpg"
+              alt=""
+            />
+            <div class="relative !h-full !w-full">
+              <div
+                class="!bg-white text-black absolute !left-0 translate-x- !-top-[50px] text-[14px] px-5 py-1 rounded-md"
+              >
+                ekrgmglmelrmgurrejgnjrngelkrnge
+              </div>
+              <div class="!absolute !left-0 !top-0">
+                <img
+                  src="assets/man.png"
+                  class="unset !w-[100px] !h-[100px]"
+                  alt=""
+                />
+                <h2 class="!text-white !text-[20px]">علی</h2>
+              </div>
+              <div class="!absolute !right-0 !top-0">
+                <img
+                  src="assets/man.png"
+                  class="unset !w-[100px] !h-[100px]"
+                  alt=""
+                />
+                <h2 class="!text-white !text-[20px]">بابک</h2>
+              </div>
+            </div>
+          </section>
+          <section data-auto-animate>
+            <img
+              class="unset !absolute leftyy !w-[250px]"
+              src="assets/cat.jpg"
+              alt=""
+            />
+            <div class="relative !h-full !w-full">
+              <div
+                class="!bg-white text-black absolute !right-0 translate-x- !-top-[50px] text-[14px] px-5 py-1 rounded-md"
+              >
+                ekrgmglmelrmgurrejgnjrngelkrnge
+              </div>
+              <div class="!absolute !left-0 !top-0">
+                <img
+                  src="assets/man.png"
+                  class="unset !w-[100px] !h-[100px]"
+                  alt=""
+                />
+                <h2 class="!text-white !text-[20px]">علی</h2>
+              </div>
+              <div class="!absolute !right-0 !top-0">
+                <img
+                  src="assets/man.png"
+                  class="unset !w-[100px] !h-[100px]"
+                  alt=""
+                />
+                <h2 class="!text-white !text-[20px]">بابک</h2>
+              </div>
+            </div>
+          </section>
+          <section data-auto-animate>
+            <img
+              class="unset !absolute leftyy !w-[250px]"
+              src="assets/cat.jpg"
+              alt=""
+            />
+            <div class="relative !h-full !w-full">
+              <div
+                class="!bg-white text-black absolute !right-0 translate-x- !-top-[50px] text-[14px] px-5 py-1 rounded-md"
+              >
+                یچیز خیلی مهم
+              </div>
+              <div class="!absolute !left-0 !top-0">
+                <img
+                  src="assets/man.png"
+                  class="unset !w-[100px] !h-[100px]"
+                  alt=""
+                />
+                <h2 class="!text-white !text-[20px]">علی</h2>
+              </div>
+              <div class="!absolute !right-0 !top-0">
+                <img
+                  src="assets/man.png"
+                  class="unset !w-[100px] !h-[100px]"
+                  alt=""
+                />
+                <h2 class="!text-white !text-[20px]">بابک</h2>
+              </div>
+            </div>
+          </section>
+        </section>
+        <section>
+          <section data-auto-animate>
+            <h2 class="!text-white">رمزنگاری نامتقارن</h2>
+          </section>
+          <section data-auto-animate>
+            <h2 class="!text-white !text-[40px]">رمزنگاری نامتقارن</h2>
+          </section>
+          <section data-auto-animate>
+            <h2 class="!text-white !text-[40px]">رمزنگاری نامتقارن</h2>
+            <h4 class="!text-[24px]">امکان انکریپ و دیکریپت کردن پیام -</h4>
+            <h4 class="!text-[24px]">امکان sign و verify کردن یک داده -</h4>
+          </section>
+          <section data-auto-animate-restart data-auto-animate="">
+            <img
+              class="unset !absolute leftyy !w-[250px]"
+              src="assets/cat.jpg"
+              alt=""
+            />
+            <div class="relative !h-full !w-full">
+              <div class="!absolute !left-0 !top-0">
+                <img
+                  src="assets/man.png"
+                  class="unset !w-[100px] !h-[100px]"
+                  alt=""
+                />
+                <h2 class="!text-white !text-[20px]">علی</h2>
+              </div>
+              <div class="!absolute !right-0 !top-0">
+                <img
+                  src="assets/man.png"
+                  class="unset !w-[100px] !h-[100px]"
+                  alt=""
+                />
+                <h2 class="!text-white !text-[20px]">بابک</h2>
+              </div>
+            </div>
+          </section>
+          <section data-auto-animate="">
+            <img
+              class="unset !absolute leftyy !w-[250px]"
+              src="assets/cat.jpg"
+              alt=""
+            />
+            <div class="relative !h-full !w-full">
+              <div
+                class="!bg-white text-black absolute !right-0 translate-x- !-top-[50px] text-[14px] px-5 py-1 rounded-md"
+              >
+                public key: ... private key: ...
+              </div>
+              <div
+                class="!bg-white text-black absolute !left-0 translate-x- !-top-[50px] text-[14px] px-5 py-1 rounded-md"
+              >
+                public key: ... private key: ...
+              </div>
+              <div class="!absolute !left-0 !top-0">
+                <img
+                  src="assets/man.png"
+                  class="unset !w-[100px] !h-[100px]"
+                  alt=""
+                />
+                <h2 class="!text-white !text-[20px]">علی</h2>
+              </div>
+              <div class="!absolute !right-0 !top-0">
+                <img
+                  src="assets/man.png"
+                  class="unset !w-[100px] !h-[100px]"
+                  alt=""
+                />
+                <h2 class="!text-white !text-[20px]">بابک</h2>
+              </div>
+            </div>
+          </section>
+          <section data-auto-animate="">
+            <img
+              class="unset !absolute leftyy !w-[250px]"
+              src="assets/cat.jpg"
+              alt=""
+            />
+            <div class="relative !h-full !w-full">
+              <div
+                class="!bg-white text-black absolute !left-0 translate-x- !-top-[50px] text-[14px] px-5 py-1 rounded-md"
+              >
+                f(babak's public key, hiii) => new message
+              </div>
+
+              <div class="!absolute !left-0 !top-0">
+                <img
+                  src="assets/man.png"
+                  class="unset !w-[100px] !h-[100px]"
+                  alt=""
+                />
+                <h2 class="!text-white !text-[20px]">علی</h2>
+              </div>
+              <div class="!absolute !right-0 !top-0">
+                <img
+                  src="assets/man.png"
+                  class="unset !w-[100px] !h-[100px]"
+                  alt=""
+                />
+                <h2 class="!text-white !text-[20px]">بابک</h2>
+              </div>
+            </div>
+          </section>
+          <section data-auto-animate="">
+            <img
+              class="unset !absolute leftyy !w-[250px]"
+              src="assets/cat.jpg"
+              alt=""
+            />
+            <div class="relative !h-full !w-full">
+              <div
+                class="!bg-white text-black absolute !right-0 translate-x- !-top-[50px] text-[14px] px-5 py-1 rounded-md"
+              >
+                new message
+              </div>
+
+              <div class="!absolute !left-0 !top-0">
+                <img
+                  src="assets/man.png"
+                  class="unset !w-[100px] !h-[100px]"
+                  alt=""
+                />
+                <h2 class="!text-white !text-[20px]">علی</h2>
+              </div>
+              <div class="!absolute !right-0 !top-0">
+                <img
+                  src="assets/man.png"
+                  class="unset !w-[100px] !h-[100px]"
+                  alt=""
+                />
+                <h2 class="!text-white !text-[20px]">بابک</h2>
+              </div>
+            </div>
+          </section>
+          <section data-auto-animate="">
+            <img
+              class="unset !absolute leftyy !w-[250px]"
+              src="assets/cat.jpg"
+              alt=""
+            />
+            <div class="relative !h-full !w-full">
+              <div
+                class="!bg-white text-black absolute !right-0 translate-x- !-top-[50px] text-[14px] px-5 py-1 rounded-md"
+              >
+                g(new message, my private key) => hiii
+              </div>
+
+              <div class="!absolute !left-0 !top-0">
+                <img
+                  src="assets/man.png"
+                  class="unset !w-[100px] !h-[100px]"
+                  alt=""
+                />
+                <h2 class="!text-white !text-[20px]">علی</h2>
+              </div>
+              <div class="!absolute !right-0 !top-0">
+                <img
+                  src="assets/man.png"
+                  class="unset !w-[100px] !h-[100px]"
+                  alt=""
+                />
+                <h2 class="!text-white !text-[20px]">بابک</h2>
+              </div>
+            </div>
+          </section>
+          <section></section>
+        </section>
+        <section>
+          <section>
+            <h2 class="!text-white !text-[60px]">حالا به چدرد میخورن ؟</h2>
+          </section>
+          <section>
+            <h2 class="!text-[30px] !text-white">
+              مسنجر ها (e.g., Signal, WhatsApp)
+            </h2>
+            <p class="!text-[16px]">
+              از رمزنگاری سرتاسری (End-to-End) بر پایه کلیدهای نامتقارن استفاده
+              می‌شود
+            </p>
+            <p class="!text-[16px]">
+              فقط فرستنده و گیرنده می‌توانند پیام‌ها را بخوانند — حتی خود
+              ارائه‌دهنده‌ی اپلیکیشن هم نمی‌تواند
+            </p>
+          </section>
+          <section>
+            <h2 class="!text-[30px] !text-white">ایمیل‌ها (PGP/GPG)</h2>
+            <p class="!text-[16px]">
+              ایمیل‌ها با استفاده از کلید عمومی گیرنده رمزنگاری می‌شن
+            </p>
+            <p class="!text-[16px]">
+              فقط خود گیرنده می‌تونه با کلید خصوصی خودش اون‌ها رو رمزگشایی کنه
+            </p>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h2 class="!text-[40px] !text-white">See it in Action</h2>
+
+            <h2 class="!text-[24px]">
+              حالا بریم یه مثال عملی از استفاده رمزنگاری نامتقارن رو داخل یک
+              اپلیکیشن ببینیم
+            </h2>
+          </section>
+          <section>
+            <div class="flex">
+              <div class="relative">
+                <div
+                  onclick="playAll()"
+                  class="!absolute !right-1/3 !-bottom-[120px]"
+                >
+                  <img
+                    src="assets/man.png"
+                    class="unset !w-[80px] !h-[80px]"
+                    alt=""
+                  />
+                  <h2 class="!text-white !text-[14px]">علی</h2>
+                </div>
+                <video src="assets/1.mp4"></video>
+              </div>
+              <div class="relative">
+                <video src="assets/intro.mp4"></video>
+              </div>
+              <div class="relative">
+                <div class="!absolute !right-1/3 !-bottom-[120px]">
+                  <img
+                    src="assets/man.png"
+                    class="unset !w-[80px] !h-[80px]"
+                    alt=""
+                  />
+                  <h2 class="!text-white !text-[14px]">بابک</h2>
+                </div>
+                <video src="assets/2.mp4"></video>
+              </div>
+            </div>
+          </section>
+          <section>
+            <img src="assets/chatguard.png" alt="" />
+          </section>
+          <section>
+            <div class="flex justify-center">
+              <img width="600px" src="assets/contrib.png" alt="" />
+            </div>
+          </section>
+          <section>
+            <div class="flex !gap-10 justify-center">
+              <img width="300px" src="assets/jadi.png" alt="" />
+              <img width="300px" src="assets/tw.png" alt="" />
+              <img width="450px" src="assets/ss.png" alt="" />
+            </div>
+          </section>
+        </section>
+        <section>
+          <h2 class="!text-white !text-[60px]">شروع به ساختن کنید</h2>
+          <h2 class="!text-[24px]">از کانسپت هایی که یادگرفتید استفاده کنید</h2>
+        </section>
+        <section></section>
+      </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      Reveal.initialize({
+        hash: true,
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      });
+      function playAll() {
+        document.querySelectorAll("video").forEach((video) => {
+          const isVideoPlaying = (video) =>
+            !!(
+              video.currentTime > 0 &&
+              !video.paused &&
+              !video.ended &&
+              video.readyState > 2
+            );
+
+          if (isVideoPlaying(video)) video.pause();
+          else video.play();
+        });
+      }
+    </script>
+  </body>
+</html>
